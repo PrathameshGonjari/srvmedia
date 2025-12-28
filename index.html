@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premier Schools Exhibition - Discover top schools and educational opportunities"
+    />
+    <title>Premier Schools Exhibition | PSE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header" role="banner">
+      <nav class="header__nav" role="navigation" aria-label="Main navigation">
+        <div class="header__container">
+          <div class="header__logo">
+            <h1 class="header__title">Premier Schools Exhibition</h1>
+          </div>
+          <ul class="header__menu" role="menubar">
+            <li role="none">
+              <a href="#hero" class="header__link" role="menuitem">Home</a>
+            </li>
+            <li role="none">
+              <a href="#schools" class="header__link" role="menuitem"
+                >Schools</a
+              >
+            </li>
+            <li role="none">
+              <a href="#exhibition" class="header__link" role="menuitem"
+                >Exhibition</a
+              >
+            </li>
+            <li role="none">
+              <a href="#contact" class="header__link" role="menuitem"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <section id="hero" class="hero" aria-label="Hero section">
+        <div class="hero__slider" role="region" aria-label="Hero slider">
+          <div class="hero__track hero__track--horizontal" aria-live="polite">
+            <div class="hero__slide hero__slide--active" data-slide="0">
+              <div class="hero__content">
+                <h2 class="hero__heading">
+                  Welcome to Premier Schools Exhibition
+                </h2>
+                <p class="hero__text">Discover excellence in education</p>
+                <a href="#schools" class="hero__button">Explore Schools</a>
+              </div>
+              <div
+                class="hero__image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&h=600&fit=crop');
+                "
+                aria-hidden="true"
+              ></div>
+            </div>
+            <div class="hero__slide" data-slide="1">
+              <div class="hero__content">
+                <h2 class="hero__heading">Empowering Future Leaders</h2>
+                <p class="hero__text">
+                  Join us for an extraordinary educational journey
+                </p>
+                <a href="#exhibition" class="hero__button">View Exhibition</a>
+              </div>
+              <div
+                class="hero__image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=600&fit=crop');
+                "
+                aria-hidden="true"
+              ></div>
+            </div>
+            <div class="hero__slide" data-slide="2">
+              <div class="hero__content">
+                <h2 class="hero__heading">Excellence in Education</h2>
+                <p class="hero__text">Where learning meets innovation</p>
+                <a href="#contact" class="hero__button">Get in Touch</a>
+              </div>
+              <div
+                class="hero__image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1497633762265-9d179a990a6e?w=1200&h=600&fit=crop');
+                "
+                aria-hidden="true"
+              ></div>
+            </div>
+            <div class="hero__slide" data-slide="3">
+              <div class="hero__content">
+                <h2 class="hero__heading">Building Tomorrow's Leaders</h2>
+                <p class="hero__text">Experience world-class education</p>
+                <a href="#schools" class="hero__button">Choose Your School</a>
+              </div>
+              <div
+                class="hero__image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=600&fit=crop');
+                "
+                aria-hidden="true"
+              ></div>
+            </div>
+          </div>
+
+          <div class="hero__track hero__track--vertical" aria-hidden="true">
+            <div class="hero__slide" data-slide="0"></div>
+            <div class="hero__slide" data-slide="1"></div>
+            <div class="hero__slide" data-slide="2"></div>
+            <div class="hero__slide" data-slide="3"></div>
+          </div>
+
+          <div class="hero__controls" role="group" aria-label="Slider controls">
+            <button
+              class="hero__control hero__control--prev"
+              aria-label="Previous slide"
+              type="button"
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button
+              class="hero__control hero__control--next"
+              aria-label="Next slide"
+              type="button"
+            >
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+
+          <div
+            class="hero__pagination"
+            role="tablist"
+            aria-label="Slide navigation"
+          >
+            <button
+              class="hero__dot hero__dot--active"
+              role="tab"
+              aria-selected="true"
+              aria-label="Slide 1"
+              data-slide="0"
+              type="button"
+            ></button>
+            <button
+              class="hero__dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 2"
+              data-slide="1"
+              type="button"
+            ></button>
+            <button
+              class="hero__dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 3"
+              data-slide="2"
+              type="button"
+            ></button>
+            <button
+              class="hero__dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 4"
+              data-slide="3"
+              type="button"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="logos" class="logos" aria-label="Participating schools">
+        <div class="logos__container">
+          <h2 class="logos__heading">Participating Schools</h2>
+          <div
+            class="logos__slider"
+            role="region"
+            aria-label="School logos slider"
+          >
+            <div class="logos__track logos__track--left" aria-hidden="true">
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/4A90E2/FFFFFF?text=School+1"
+                  alt="School Logo 1"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/E94B3C/FFFFFF?text=School+2"
+                  alt="School Logo 2"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/50C878/FFFFFF?text=School+3"
+                  alt="School Logo 3"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/FF6B6B/FFFFFF?text=School+4"
+                  alt="School Logo 4"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/9B59B6/FFFFFF?text=School+5"
+                  alt="School Logo 5"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/F39C12/FFFFFF?text=School+6"
+                  alt="School Logo 6"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/1ABC9C/FFFFFF?text=School+7"
+                  alt="School Logo 7"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/E67E22/FFFFFF?text=School+8"
+                  alt="School Logo 8"
+                  class="logos__image"
+                />
+              </div>
+            </div>
+            <div class="logos__track logos__track--right" aria-hidden="true">
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/3498DB/FFFFFF?text=School+9"
+                  alt="School Logo 9"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/E74C3C/FFFFFF?text=School+10"
+                  alt="School Logo 10"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/2ECC71/FFFFFF?text=School+11"
+                  alt="School Logo 11"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/FF8C00/FFFFFF?text=School+12"
+                  alt="School Logo 12"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/8E44AD/FFFFFF?text=School+13"
+                  alt="School Logo 13"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/16A085/FFFFFF?text=School+14"
+                  alt="School Logo 14"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/D35400/FFFFFF?text=School+15"
+                  alt="School Logo 15"
+                  class="logos__image"
+                />
+              </div>
+              <div class="logos__item">
+                <img
+                  src="https://via.placeholder.com/150x80/27AE60/FFFFFF?text=School+16"
+                  alt="School Logo 16"
+                  class="logos__image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="schools" class="schools" aria-label="Choose your school">
+        <div class="schools__container">
+          <h2 class="schools__heading">Choose the School</h2>
+          <p class="schools__subheading">
+            Select from our premier educational institutions
+          </p>
+
+          <div
+            class="schools__slider"
+            role="region"
+            aria-label="School selection"
+          >
+            <div class="schools__track" aria-live="polite">
+              <article class="schools__card" data-card="0">
+                <div class="schools__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop"
+                    alt="Premier Academy"
+                    class="schools__image"
+                  />
+                </div>
+                <div class="schools__card-content">
+                  <h3 class="schools__card-title">Premier Academy</h3>
+                  <p class="schools__card-description">
+                    Excellence in academic achievement and character
+                    development. Our comprehensive curriculum prepares students
+                    for success.
+                  </p>
+                  <a
+                    href="#"
+                    class="schools__card-link"
+                    aria-label="Learn more about Premier Academy"
+                    >Learn More</a
+                  >
+                </div>
+              </article>
+
+              <article class="schools__card" data-card="1">
+                <div class="schools__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop"
+                    alt="Elite International School"
+                    class="schools__image"
+                  />
+                </div>
+                <div class="schools__card-content">
+                  <h3 class="schools__card-title">
+                    Elite International School
+                  </h3>
+                  <p class="schools__card-description">
+                    Global perspective meets local excellence. We foster
+                    critical thinking and international mindedness.
+                  </p>
+                  <a
+                    href="#"
+                    class="schools__card-link"
+                    aria-label="Learn more about Elite International School"
+                    >Learn More</a
+                  >
+                </div>
+              </article>
+
+              <article class="schools__card" data-card="2">
+                <div class="schools__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1497633762265-9d179a990a6e?w=400&h=300&fit=crop"
+                    alt="Innovation High School"
+                    class="schools__image"
+                  />
+                </div>
+                <div class="schools__card-content">
+                  <h3 class="schools__card-title">Innovation High School</h3>
+                  <p class="schools__card-description">
+                    Where technology and creativity converge. Preparing students
+                    for the challenges of tomorrow.
+                  </p>
+                  <a
+                    href="#"
+                    class="schools__card-link"
+                    aria-label="Learn more about Innovation High School"
+                    >Learn More</a
+                  >
+                </div>
+              </article>
+
+              <article class="schools__card" data-card="3">
+                <div class="schools__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop"
+                    alt="Heritage Preparatory"
+                    class="schools__image"
+                  />
+                </div>
+                <div class="schools__card-content">
+                  <h3 class="schools__card-title">Heritage Preparatory</h3>
+                  <p class="schools__card-description">
+                    Rooted in tradition, focused on the future. A balanced
+                    approach to education and personal growth.
+                  </p>
+                  <a
+                    href="#"
+                    class="schools__card-link"
+                    aria-label="Learn more about Heritage Preparatory"
+                    >Learn More</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="schools__controls"
+              role="group"
+              aria-label="School slider controls"
+            >
+              <button
+                class="schools__control schools__control--prev"
+                aria-label="Previous school"
+                type="button"
+              >
+                <span aria-hidden="true">‹</span>
+              </button>
+              <button
+                class="schools__control schools__control--next"
+                aria-label="Next school"
+                type="button"
+              >
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+
+            <div
+              class="schools__pagination"
+              role="tablist"
+              aria-label="School navigation"
+            >
+              <button
+                class="schools__dot schools__dot--active"
+                role="tab"
+                aria-selected="true"
+                aria-label="School 1"
+                data-card="0"
+                type="button"
+              ></button>
+              <button
+                class="schools__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="School 2"
+                data-card="1"
+                type="button"
+              ></button>
+              <button
+                class="schools__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="School 3"
+                data-card="2"
+                type="button"
+              ></button>
+              <button
+                class="schools__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="School 4"
+                data-card="3"
+                type="button"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="exhibition"
+        class="exhibition"
+        aria-label="Exhibition highlights"
+      >
+        <div class="exhibition__container">
+          <h2 class="exhibition__heading">Exhibition Highlights</h2>
+          <p class="exhibition__subheading">
+            Discover what makes our schools exceptional
+          </p>
+
+          <div
+            class="exhibition__slider"
+            role="region"
+            aria-label="Exhibition slider"
+          >
+            <div class="exhibition__track" aria-live="polite">
+              <article class="exhibition__card" data-exhibition="0">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=400&fit=crop"
+                    alt="State-of-the-art facilities"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">
+                    State-of-the-Art Facilities
+                  </h3>
+                  <p class="exhibition__card-description">
+                    Modern classrooms, science labs, and technology centers
+                    designed to inspire learning and innovation.
+                  </p>
+                </div>
+              </article>
+
+              <article class="exhibition__card" data-exhibition="1">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=500&h=400&fit=crop"
+                    alt="Expert faculty"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">Expert Faculty</h3>
+                  <p class="exhibition__card-description">
+                    Dedicated educators with advanced degrees and years of
+                    experience nurturing young minds.
+                  </p>
+                </div>
+              </article>
+
+              <article class="exhibition__card" data-exhibition="2">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500&h=400&fit=crop"
+                    alt="Extracurricular activities"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">
+                    Extracurricular Excellence
+                  </h3>
+                  <p class="exhibition__card-description">
+                    Sports, arts, music, and clubs that develop well-rounded
+                    individuals beyond academics.
+                  </p>
+                </div>
+              </article>
+
+              <article class="exhibition__card" data-exhibition="3">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop"
+                    alt="Student achievements"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">
+                    Outstanding Achievements
+                  </h3>
+                  <p class="exhibition__card-description">
+                    Our students consistently excel in academics, competitions,
+                    and leadership roles.
+                  </p>
+                </div>
+              </article>
+
+              <article class="exhibition__card" data-exhibition="4">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&h=400&fit=crop"
+                    alt="Global connections"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">Global Connections</h3>
+                  <p class="exhibition__card-description">
+                    International partnerships and exchange programs that
+                    broaden horizons.
+                  </p>
+                </div>
+              </article>
+
+              <article class="exhibition__card" data-exhibition="5">
+                <div class="exhibition__card-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1497633762265-9d179a990a6e?w=500&h=400&fit=crop"
+                    alt="Innovation programs"
+                    class="exhibition__image"
+                  />
+                </div>
+                <div class="exhibition__card-content">
+                  <h3 class="exhibition__card-title">Innovation Programs</h3>
+                  <p class="exhibition__card-description">
+                    STEM initiatives, coding workshops, and maker spaces
+                    fostering creativity and problem-solving.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="exhibition__controls"
+              role="group"
+              aria-label="Exhibition slider controls"
+            >
+              <button
+                class="exhibition__control exhibition__control--prev"
+                aria-label="Previous highlight"
+                type="button"
+              >
+                <span aria-hidden="true">‹</span>
+              </button>
+              <button
+                class="exhibition__control exhibition__control--next"
+                aria-label="Next highlight"
+                type="button"
+              >
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+
+            <div
+              class="exhibition__pagination"
+              role="tablist"
+              aria-label="Exhibition navigation"
+            >
+              <button
+                class="exhibition__dot exhibition__dot--active"
+                role="tab"
+                aria-selected="true"
+                aria-label="Highlight 1"
+                data-exhibition="0"
+                type="button"
+              ></button>
+              <button
+                class="exhibition__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="Highlight 2"
+                data-exhibition="1"
+                type="button"
+              ></button>
+              <button
+                class="exhibition__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="Highlight 3"
+                data-exhibition="2"
+                type="button"
+              ></button>
+              <button
+                class="exhibition__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="Highlight 4"
+                data-exhibition="3"
+                type="button"
+              ></button>
+              <button
+                class="exhibition__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="Highlight 5"
+                data-exhibition="4"
+                type="button"
+              ></button>
+              <button
+                class="exhibition__dot"
+                role="tab"
+                aria-selected="false"
+                aria-label="Highlight 6"
+                data-exhibition="5"
+                type="button"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-label="Contact information">
+        <div class="contact__container">
+          <h2 class="contact__heading">Get in Touch</h2>
+          <p class="contact__subheading">
+            Have questions? We'd love to hear from you.
+          </p>
+          <div class="contact__content">
+            <div class="contact__info">
+              <p class="contact__text">Email: info@premierschools.com</p>
+              <p class="contact__text">Phone: +1 (555) 123-4567</p>
+              <p class="contact__text">
+                Address: 123 Education Avenue, Learning City
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer__container">
+        <p class="footer__text">
+          &copy; 2025 Premier Schools Exhibition. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
